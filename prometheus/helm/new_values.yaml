@@ -1,0 +1,6 @@
+server:
+  remoteWrite:
+  - url: "https://prometheus-us-central1.grafana.net/api/prom/push"
+    basic_auth:
+      username: eks
+      password: eyJrIjoiYkNQMlVlYXhDV042dXRrUkZpeWU3VTVKMDN4MHZ4dGkiLCJuIjoiZWtzIiwiaWQiOjF9
