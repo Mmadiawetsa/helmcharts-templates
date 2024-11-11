@@ -87,7 +87,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: kube.privateproperty.cloud
+    - host: kube.domain.com
       paths:
         - path: /rundeck
           backend:
